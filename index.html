@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>03-belajar-dasar-pemrograman-dom</title>
+  <title>belajar-dom | Najlala</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,20 +12,20 @@
   <header class="topbar">
     <div class="github-mark">●</div>
     <button class="menu-button" onclick="showMessage('Menu navigasi')">☰</button>
+
     <div class="top-title">
       <strong>GitHub</strong>
       <span>/</span>
-      <a href="#" onclick="showMessage('Repository latihan DOM'); return false;">
-        najlala
-      </a>
+      <a href="#" onclick="showMessage('Repository milik Najlala'); return false;">Najlala</a>
       <span>/</span>
-      <strong>03-belajar-dasar-pemrograman-dom</strong>
+      <strong>belajar-dom</strong>
     </div>
+
     <div class="top-actions">
       <button onclick="showMessage('Kolom pencarian')">⌕ Search</button>
       <button onclick="showMessage('Menu tambah')">＋</button>
       <button onclick="showMessage('Notifikasi')">♧</button>
-      <div class="avatar">R</div>
+      <div class="avatar">N</div>
     </div>
   </header>
 
@@ -33,13 +33,13 @@
     <div class="repo-heading">
       <div class="repo-title">
         <div class="repo-icon">▣</div>
-        <h1>03-belajar-dasar-pemrograman-dom</h1>
+        <h1>belajar-dom</h1>
         <span class="public-badge">Public</span>
       </div>
 
       <div class="repo-actions">
         <button onclick="showMessage('Notifikasi repository')">◉ Watch <span>1</span></button>
-        <button onclick="showMessage('Repository berhasil ditandai Star')">☆ Star <span>0</span></button>
+        <button onclick="showMessage('Repository ditandai Star')">☆ Star <span>0</span></button>
         <button onclick="showMessage('Menu Fork')">⑂ Fork <span>0</span></button>
       </div>
     </div>
@@ -59,6 +59,7 @@
           <button onclick="showMessage('Daftar branch')">▧ 1 branch</button>
           <button onclick="showMessage('Daftar tag')">◇ 0 tags</button>
         </div>
+
         <div class="file-actions">
           <input id="file-search" type="text" placeholder="Go to file" oninput="filterFiles()">
           <button onclick="showMessage('Menu Add file')">＋ Add file</button>
@@ -69,8 +70,8 @@
       <div class="repo-layout">
         <div class="main-column">
           <div class="latest-commit">
-            <div class="avatar small-avatar">R</div>
-            <strong>rosaratasya</strong>
+            <div class="avatar small-avatar">N</div>
+            <strong>Najlala</strong>
             <span>belajar dasar pemrograman DOM</span>
             <span class="commit-time">• commit terakhir</span>
             <button onclick="showMessage('Riwayat commit')">…</button>
@@ -118,7 +119,7 @@
             <div class="readme-header">▤ README.md</div>
             <div class="readme-content" id="file-content">
               <h2>Belajar Dasar Pemrograman DOM</h2>
-              <p>Repository ini berisi latihan dasar pemrograman DOM menggunakan HTML, CSS, dan JavaScript.</p>
+              <p>Repository ini dibuat oleh Najlala untuk belajar dasar pemrograman DOM menggunakan HTML, CSS, dan JavaScript.</p>
               <hr>
               <h3>📚 Materi</h3>
               <ul>
@@ -135,24 +136,28 @@
 
         <aside class="sidebar">
           <h3>About</h3>
-          <p>Latihan dasar pemrograman DOM untuk belajar menghubungkan JavaScript dengan halaman HTML.</p>
+          <p>Repository latihan dasar pemrograman DOM milik Najlala.</p>
           <a href="#" onclick="showMessage('Website proyek'); return false;">🔗 Website proyek</a>
+
           <div class="sidebar-line"></div>
           <p>▤ Readme</p>
           <p>◇ Activity</p>
+
           <div class="sidebar-line"></div>
           <h3>Releases</h3>
           <p class="muted">No releases published</p>
           <a href="#" onclick="showMessage('Buat release'); return false;">Create a new release</a>
+
           <div class="sidebar-line"></div>
           <h3>Packages</h3>
           <p class="muted">No packages published</p>
+
           <div class="sidebar-line"></div>
           <h3>Languages</h3>
           <div class="language-bar">
             <span></span><span></span><span></span>
           </div>
-          <p class="language-text">HTML  ·  CSS  ·  JavaScript</p>
+          <p class="language-text">HTML · CSS · JavaScript</p>
         </aside>
       </div>
     </section>
